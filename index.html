@@ -1,21 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kellie's Portfolio</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/kellie.ico" type="image/x-icon" />
+  </head>
+  <body>
     <header>
-        <h1>Hello! My name is Kellie-Ann. <br> I am a developer.</h1>
-        <a href="#about">Find out more</a>
+      <h1>
+        Hello! My name is Kellie-Ann. <br />
+        I am a Web application developer.
+      </h1>
+      <a href="#about" class="button">Find out more</a>
     </header>
     <main>
-        <section>
-            <h2>About me</h2>
-        </section>
+      <section class="about primary-theme">
+        <h2>About me</h2>
+        <div class="about-container">
+          <img class="about-img"
+            src="images/kellie.jpg"
+            alt="pic of Kellie, black woman in 40s smiling in front of a painting"
+          />
+          <div class="about-text">
+            <p>
+              For the past 16 years I have been working as a web application developer for carbon registries. 
+            </p>
+            <p>
+              I have mostly been working in the Java ecosystem with the last 10 years being with Grails. More recently I have also been taking on a devops role and scripting the building and deploying of stacks on AWS. Most of my development in my career has been focused on back-end development, and I am now trying to learn more about front-end development. The projects in this portfolio reflect that effort.
+            </p>
+            
+            <blockquote>
+              "She is very thorough"
+              <cite> - coworker of over 10 years</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <section class="neutral-theme">
+        <h2>Projects</h2>
+        <article>
+          <div class="article-text">
+            <h3>Terrarium</h3>
+            <p>Building a Terrarium to practice DOM manipulation.</p>
+            <a href="https://soyabeanie.github.io/fef-terrarium/" class="button">See it live</a>
+            <a href="https://github.com/SoyaBeanie/fef-terrarium" class="button">Fork it on GitHub</a>
+          </div>
+          <img
+            src="/images/project-crane-truck.jpg"
+            class="article-img"
+            alt="crane truck"
+          />
+        </article>
+        <article>
+            <div>
+          <h3>Memory Card Game</h3>
+          <p>Learning more about javascript with a typing game</p>
+          <a href="https://soyabeanie.github.io/fef-memory-card-game/" class="button">See it live</a>
+          <a href="https://github.com/SoyaBeanie/fef-memory-card-game" class="button">Fork it on GitHub</a>
+        </div>
+          <img
+            src="/images/project-crane-truck.jpg"
+            class="article-img"
+            alt="crane truck"
+          />
+        </article>
+        <article>
+            <div>
+          <h3>Typing Game</h3>
+          <p>Building a typing game to practie Javascript, dom manipulations css and browser local storage.</p>
+          <a href="https://soyabeanie.github.io/fef-typing-game/" class="button">See it live</a>
+          <a href="https://github.com/SoyaBeanie/fef-typing-game" class="button">Fork it on GitHub</a>
+        </div>
+          <img
+            src="/images/project-crane-truck.jpg"
+            class="article-img"
+            alt="crane truck"
+          />
+        </article>
+      </section>
     </main>
-    
-</body>
+    <footer>
+      <ul class="social">
+        <li class="social-item">
+          <a href="https://github.com/SoyaBeanie">GitHub</a>
+        </li>
+      </ul>
+      <p>&copy; 2022 Portfolio design by Kellie-Ann Smith</p>
+    </footer>
+  </body>
 </html>
